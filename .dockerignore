@@ -1,0 +1,80 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Documentation
+README.md
+CLAUDE.md
+*.md
+
+# Docker
+docker/
+Dockerfile*
+docker-compose*
+
+# Development
+.vscode/
+.idea/
+*.log
+*.pid
+*.pid.lock
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Node.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies (will be installed in container)
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build outputs (will be built in container)
+client/build/
+client/dist/
+
+# Database (use volume instead)
+server/data/*.db*
+
+# Environment files
+.env.local
+.env.development
+.env.test
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+.coverage
+.nyc_output
+
+# Testing
+.cache/
+.parcel-cache/
+
+# Editor
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
