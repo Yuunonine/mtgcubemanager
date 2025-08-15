@@ -122,7 +122,7 @@ const Manual: React.FC = () => {
               fullWidth
               startIcon={<GitHubIcon />}
               endIcon={<OpenInNewIcon />}
-              onClick={() => openExternalLink('https://github.com/Yuunonine/mtgcubemanager')
+              onClick={() => openExternalLink('https://github.com/Yuunonine/mtgcubemanager')}
               sx={{ height: '100%', flexDirection: 'column', py: 2 }}
             >
               <Typography variant="subtitle2">
