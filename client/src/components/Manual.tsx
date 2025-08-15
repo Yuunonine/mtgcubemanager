@@ -71,7 +71,7 @@ const Manual: React.FC = () => {
               fullWidth
               startIcon={<MenuBookIcon />}
               endIcon={<OpenInNewIcon />}
-              onClick={() => openExternalLink('https://github.com/your-repo/mtgcubes/blob/main/docs/USER_GUIDE.md')}
+              onClick={() => openExternalLink('https://github.com/Yuunonine/mtgcubemanager/blob/main/docs/USER_GUIDE.md')}
               sx={{ height: '100%', flexDirection: 'column', py: 2 }}
             >
               <Typography variant="subtitle2">
@@ -88,7 +88,7 @@ const Manual: React.FC = () => {
               fullWidth
               startIcon={<CodeIcon />}
               endIcon={<OpenInNewIcon />}
-              onClick={() => openExternalLink('https://github.com/your-repo/mtgcubes/blob/main/docs/DEVELOPER.md')}
+              onClick={() => openExternalLink('https://github.com/Yuunonine/mtgcubemanager/blob/main/docs/DEVELOPER.md')}
               sx={{ height: '100%', flexDirection: 'column', py: 2 }}
             >
               <Typography variant="subtitle2">
@@ -105,7 +105,7 @@ const Manual: React.FC = () => {
               fullWidth
               startIcon={<ApiIcon />}
               endIcon={<OpenInNewIcon />}
-              onClick={() => openExternalLink('https://github.com/your-repo/mtgcubes/blob/main/docs/API.md')}
+              onClick={() => openExternalLink('https://github.com/Yuunonine/mtgcubemanager/blob/main/docs/API.md')}
               sx={{ height: '100%', flexDirection: 'column', py: 2 }}
             >
               <Typography variant="subtitle2">
@@ -122,7 +122,7 @@ const Manual: React.FC = () => {
               fullWidth
               startIcon={<GitHubIcon />}
               endIcon={<OpenInNewIcon />}
-              onClick={() => openExternalLink('https://github.com/your-repo/mtgcubes')}
+              onClick={() => openExternalLink('https://github.com/Yuunonine/mtgcubemanager')
               sx={{ height: '100%', flexDirection: 'column', py: 2 }}
             >
               <Typography variant="subtitle2">
